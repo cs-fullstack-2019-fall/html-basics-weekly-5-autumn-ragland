@@ -1,0 +1,75 @@
+/******************Header Styling******************/
+
+/*All items on the left side in the header*/
+#headerLeft{
+    float: left;
+}
+/*All items on the right side in the header*/
+#headerRight{
+    float: right;
+}
+
+/******************Search Div styling******************/
+
+/*Positioning the main section of the site*/
+#searchDiv{
+    text-align: center;
+    margin: 0 32% 15% 32%;
+    padding-top: 10%;
+}
+/*Styling the search bar*/
+#searchBar{
+    width: 100%;
+    height: 35px;
+    margin: 30px 0;
+    border-radius: 25px;
+    border: 3px solid #F1F1F1;
+}
+/*Styling the search buttons ('google search' and 'Im feeling lucky'*/
+.searchBtn{
+    /*display: inline-block;*/
+    background-color: #F1F1F1;
+    color: grey;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+}
+/*Styling the search buttons when the mouse is over them*/
+.searchBtn:hover{
+    color: black;
+    border: 1px solid lightgray;
+}
+
+/******************Footer Styling******************/
+
+/*Positioning the Footer*/
+footer{
+    position: fixed;
+    background-color: #F1F1F1;
+    padding: 28px;
+    width: 96%;
+}
+/*Styling all elements on the left side of the footer*/
+#footerLeft{
+    float: left;
+}
+/*Styling all elements on the right side of the footer*/
+#footerRight{
+    float: right;
+}
+
+/******************Styling across sections******************/
+
+/*Styling all links*/
+a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+/*Styling links to override default 'visited' behaviour*/
+a:visited{
+    color: black;
+}
